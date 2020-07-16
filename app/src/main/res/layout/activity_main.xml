@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="295dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square1"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square2"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square1"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square2"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/e"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square1"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/f"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square2"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/g"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square1"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/h"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square2"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/i"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square1"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/j"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square2"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/k"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square1"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+        <Button
+            android:id="@+id/l"
+            android:layout_width="60dp"
+            android:layout_height="275dp"
+            android:background="@drawable/square2"
+            android:soundEffectsEnabled="false"
+            android:onClick="click"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="120dp"
+        android:textSize="30sp"
+        android:text="PIANO TOOLS"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
